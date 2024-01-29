@@ -1,0 +1,74 @@
+<html>
+    <head>
+        <meta charset="utf-8">
+
+        <title>Mike Resume</title>
+        <style>
+            h1 {
+                color: red;
+                }
+            .content {
+                margin-left: 200px;
+                padding-left: 20px;
+                }
+            .left {
+                height: 100%;
+                width: 200px;
+                background-color: #0d0558;
+                float: left;
+                position: fixed;
+                }
+            .right {
+                height: 100%;
+                width: 200px;
+                background-color: #055858;
+                float: right;
+                position: inherit;
+                }
+                p {
+                color: red;
+                }
+                .counter-number {
+                    color: darkorchid;
+                }
+        </style>
+       
+   
+   
+    </head>
+
+    <body>
+        <div class="counter-number nav-item nav-link text-white-50 font-os font-size-16 active"></div>
+    </div>
+        <div class="left"></div>
+        <div class="right"></div> 
+        <h1 style="text-align:center;">Michael Ladouceur</h1>
+        <h2 style="text-align:center;" style="color:hsl(9, 70%, 51%);"> 115 Moore Ave<br> Lehigh Acres,Fl,33936</h2>
+     <br>
+     
+     <div class="content">
+     <p> <b>Education</b> </p>
+     <li> Florida International University</li>
+         <pre>       Bachelors in Natural Sciences</pre>
+    <P> <b>Experience</b> </p>
+     <li> Cloud Resume Project </li>
+     <li> Amazon ChatBox </li>
+     <li> WordPress Hosting in s3</li>
+     <li> Data Entry Manager </li>
+    <p> <b>Certifications</b> </p>
+      <li> AWS solutions Architect- Associate</li>
+      <li> AWS Cloud Practioner</li>
+    </div>
+    <script>
+        const counter = document.querySelector(".counter-number");
+        async function updateCounter() {
+            let response = await fetch(
+                "https://upcrf2zcy5j5euao4np3ntpvhe0bgqpz.lambda-url.us-east-1.on.aws/"
+            );
+            let data = await response.json();
+            counter.innerHTML = `👀 Views: ${data}`;
+        }
+        updateCounter();
+        </script>
+    </body>
+</html>

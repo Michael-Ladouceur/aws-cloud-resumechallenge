@@ -1,0 +1,34 @@
+<html>
+    <head>
+        <meta charset="utf-8">
+
+        <title>Blank template</title>
+
+        <!-- Load external CSS styles -->
+        <link rel="stylesheet" href="styles.css">
+
+    </head>
+
+    <body>
+
+        <h1>Michael Ladouceur</h1>
+        <h2 style="text-align:center;"> 115 Moore Ave<br> Lehigh Acres,Fl,33936</h2>
+     <br>
+     <p> <b>Education</b> </p>
+     <li> Florida International University</li>
+         <pre>       Bachelors in Natural Sciences</pre>
+    <P> <b>Experience</b> </p>
+     <li> Cloud Resume Project </li>
+     <li> Amazon ChatBox </li>
+     <li> WordPress Hosting in s3</li>
+     <li> Data Entry Manager </li>
+    <p> <b>Certifications</b> </p>
+      <li> AWS solutions Architect- Associate</li>
+      <li> AWS Cloud Practioner</li>
+    
+    
+        <!-- Load external JavaScript -->
+        <script src="scripts.js"></script>
+        
+    </body>
+</html>
