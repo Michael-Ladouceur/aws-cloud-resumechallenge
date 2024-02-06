@@ -4,7 +4,8 @@ This is my attempt at tackling the Cloud Resume Challenge by Forrest Brazeal. Th
 
 ## Architecture
 
-![Architecture Diagram] (C:\Users\micha\OneDrive\Pictures\Saved Pictures\Screenshot 2024-02-01 161852.png)
+![Screenshot 2024-02-01 161852](https://github.com/Michael-Ladouceur/aws-cloud-resumechallenge/assets/157927592/ce56e514-2d0b-424a-bbd0-df3b6752af7e)
+
 **Services Used**:
 
 - S3
