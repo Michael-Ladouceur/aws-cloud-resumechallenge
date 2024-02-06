@@ -4,7 +4,7 @@ This is my attempt at tackling the Cloud Resume Challenge by Forrest Brazeal. Th
 
 ## Architecture
 
-![Architecture Diagram]("C:\Users\micha\OneDrive\Pictures\Saved Pictures\Screenshot 2024-02-01 161852.png")
+![Architecture Diagram](C:\Users\micha\OneDrive\Pictures\Saved Pictures\Screenshot 2024-02-01 161852.png)
 **Services Used**:
 
 - S3
